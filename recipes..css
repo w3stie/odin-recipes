@@ -31,6 +31,17 @@ a{
     gap: 16px;
 }
 
+.nav-button{
+    cursor: pointer;
+    background: transparent;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.nav-button:hover{
+    background-color: rgba(255, 94, 0, 0.715);
+}
+
 .recipe-card img{
     height: 300px;
 }
@@ -62,4 +73,9 @@ a{
     border-radius: 8px;
     padding: 8px;
     margin: 32px;
+}
+
+.button:hover{
+    scale: 1.2;
+    transition: .3s ease-in-out;
 }
